@@ -6,7 +6,7 @@ TF is word frequency.
 
 We have two files.
 
-![](.\img\twoFile.png)
+![](https://github.com/Ricoloshare/TFIDF/tree/master/img/twoFile.png)
 
 The word **hello** appears in 1.txt for 2 times. So his TF is 2 / 6(total words) = 0.33333
 
@@ -14,7 +14,7 @@ The word **hello** appears in 1.txt for 2 times. So his TF is 2 / 6(total words)
 
 IDF is inverse document frequency. 
 
-![](.\img\IDF.png)
+![](https://github.com/Ricoloshare/TFIDF/tree/master/img/IDF.png)
 
 The word **hello** appears in 1.txt. Similarly, it also appears in 2.txt.
 
@@ -26,19 +26,19 @@ So his **TF*IDF** = 0.33333 * -0.176 = -0.058608
 
 **TF results:**
 
-![](.\img\TF-result.png)
+![](https://github.com/Ricoloshare/TFIDF/tree/master/img/TF-result.png)
 
 We can see the TF value of the word hello.
 
 **TF*IDF**
 
-![](.\img\TFIDF.png)
+![](https://github.com/Ricoloshare/TFIDF/tree/master/img/TFIDF.png)
 
 The operation result is correct, let's take a look at the program.
 
 ## Algorithm
 
-![](.\img\sl.png)
+![](https://github.com/Ricoloshare/TFIDF/tree/master/img/sl.png)
 
 *The document input for the second time is the first output*
 
@@ -138,8 +138,8 @@ for(String value : lists) {
 hadoop jar 1-0.0.1-SNAPSHOT.jar com.ricolo.TFIDFDriver
 ```
 
-![](.\img\run.png)
+![](https://github.com/Ricoloshare/TFIDF/blob/master/img/run.png)
 
 Download file from HDFS
 
-![](.\img\result.png)
+![](https://github.com/Ricoloshare/TFIDF/blob/master/img/result.png)
